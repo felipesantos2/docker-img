@@ -1,0 +1,9 @@
+services:
+  f:
+    build: .
+    ports:
+      - "8080:80"
+    container_name: felipe_contas
+    # image: my-nginx-image:latest
+    cpus: 1.5
+    mem_limit: 2048m
